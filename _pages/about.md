@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-
+<img src="https://github.com/ChristofHenkel/dieters-blog/blob/master/images/headshot_christof.jpg" width="240" alt="Portrait of me." />
 
 Hello, I'm Christof Henkel!
 
