@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": ". ![] ( https://christofhenkel.github.io/dieters-blog/images /portrait.png Hello, I’m Christof Henkel! . I’m a deep learning researcher at NVIDIA. I’m particularly interested in novel deep learning architectures with respect to graphs, computer vision and audio. I have a background in probability theory and specialized in stochastic processes about which I did a PhD at the Ludwig-Maximilians-Univerity in Munich. I started kaggling 5 years ago and after participating in more than 50 competitions currently hold the 1st rank in the worl-wide competition ranking. . Get in touch with me on Twitter (@kagglingdieter) or contact me via my kaggle profile .",
+          "content": ". Hello, I’m Christof Henkel! . I’m a deep learning researcher at NVIDIA. I’m particularly interested in novel deep learning architectures with respect to graphs, computer vision and audio. I have a background in probability theory and specialized in stochastic processes about which I did a PhD at the Ludwig-Maximilians-Univerity in Munich. I started kaggling 5 years ago and after participating in more than 50 competitions currently hold the 1st rank in the worl-wide competition ranking. . Get in touch with me on Twitter (@kagglingdieter) or contact me via my kaggle profile .",
           "url": "https://christofhenkel.github.io/dieters-blog/about/",
           "relUrl": "/about/",
           "date": ""
