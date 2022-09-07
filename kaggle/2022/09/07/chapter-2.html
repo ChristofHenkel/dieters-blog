@@ -130,9 +130,11 @@ I also saw some nice synergy effects with my daily job, where I could apply some
 
 <p>The first architecture is called GAPNet (short for Global Average Pooling Network) which is an underrated CNN architecture explicitly suited for scale invariance. The main idea is not to pool only the output of the last CNN block for the head of fully connected layers, but to pool the output of each CNN block and concatenate the results for an input to the fully connected layers. An illustration is shown below</p>
 
+<p><img src="images/gapnet.png" alt=""></p>
+
 <p>The second architecture was a standard ResNet but with an auxiliary segmentation loss. Additionally to the “normal” classification loss I used the output of the last 32x32x128 layer within ResNet34 did Conv2D to 32x32x28 and then used a downsampling of the green channel with the according labels as ground truth mask to have a segmentation loss. This segmentation loss works like a regularizer which ensures attention on the relevant regions. The additional supervised attention added quite some benefit to regularization, and the computational cost was bearable. See below for illustration</p>
 
-<p>You can find the write-up of my part of the solution here (https://www.kaggle.com/competitions/human-protein-atlas-image-classification/discussion/77300)</p>
+<p>You can find the write-up of my part of the solution <a href="https://www.kaggle.com/competitions/human-protein-atlas-image-classification/discussion/77300">here</a></p>
 
 <p>Using a big ensemble of state-of the art backbones and iterative pseudo-labeling our team achieved a fantastic 4th place resulting in the first gold medal of my Kaggle career. The icing on the cake was the possibility to co-author a competition related paper which was published in nature methods (https://www.nature.com/articles/s41592-019-0658-6) . Overall it was an extremely valuable experience, especially learning from Russ Wolfinger, a well respected Kaggle grandmaster. Also the engagement of the HPA team (which hosted the competition) with answering all kinds of domain related questions was extraordinary, making it one of my favorite competitions.</p>
 
