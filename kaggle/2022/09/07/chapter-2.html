@@ -105,7 +105,7 @@ window.onload = wrap_img;
 
 <p>Right after my very first competition, I followed-up with the <a href="https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge">Jigsaw Toxic Comment Classification Challenge</a>, a NLP competition with many participants. I learned from my previous mistakes, improved my code base and read kernels as well as discussions intensively. I joined forces with some other new kagglers, who I found via the discussion forum and we built a diverse and complex multi-level ensemble with many models involved. The next figure gives a rough overview.</p>
 
-<p><img src="/dieters-blog/images/jigsaw_overview.jpeg" alt=""></p>
+<p><img src="/dieters-blog/images/toxic_overview_v2.png" alt=""></p>
 
 <p>As this competition was pre-transformer we mixed all kinds of word/ character embedding models together with classic text models like TFIDF + NaiveBayesSVM. We then stacked for 2 levels using a neural network/  gradient boosting or hyperopt of simple average weights. At the end we had more than 50 models for the team. I believe nowadays a simple bert-base would beat the whole ensemble.</p>
 
@@ -115,7 +115,7 @@ window.onload = wrap_img;
 
 <p>Highlight thereby was the <a href="https://www.kaggle.com/c/avito-demand-prediction">Avito Demand Prediction Challenge</a>, where competitors were asked to predict the demand of millions of products given their text and image information, with the interesting tweak that all text information is in russian language. It was quite exciting to learn how to build a combined neural network simultaneously processing image and text data, which illustrated the high degree of flexibility of deep learning. I was quite proud designing my first multi-input end2end architecture, which simultaneously takes image, text and features into account to predict a product demand score.</p>
 
-<p><img src="/dieters-blog/images/avito_overview.jpeg" alt=""></p>
+<p><img src="/dieters-blog/images/avito_overview_v2.png" alt=""></p>
 
 <p>Our team finished 25th place, and you can find our write-up <a href="https://www.kaggle.com/competitions/avito-demand-prediction/discussion/59902">here</a>
 With deep learning on the rise, all top solutions used an end2end neural network design. I am still coming back to read the details of those solutions whenever there is a similar competition.</p>
